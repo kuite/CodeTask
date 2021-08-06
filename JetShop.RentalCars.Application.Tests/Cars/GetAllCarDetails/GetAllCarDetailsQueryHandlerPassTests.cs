@@ -13,7 +13,7 @@ namespace JetShop.RentalCars.Application.Tests.Cars.GetAllCarDetails
     public class GetAllCarDetailsQueryHandlerPassTests
     {
         [Fact]
-        public async Task GetAllCarDetailsQueryHandler_WhenCalled_ReturnsCorrectSize()
+        public async Task Handle_WhenCalled_ReturnCorrectSize()
         {
             // Arrange
             var fixture = new Fixture();

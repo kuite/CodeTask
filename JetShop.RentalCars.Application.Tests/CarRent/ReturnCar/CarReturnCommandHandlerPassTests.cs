@@ -14,7 +14,7 @@ namespace JetShop.RentalCars.Application.Tests.CarRent.ReturnCar
     public class CarReturnCommandHandlerPassTests
     {
         [Fact]
-        public async Task CarReturnCommandHandler_WhenCalled_UpdatedCarMileage()
+        public async Task Handle_WhenCalled_UpdateCarStatusMileage()
         {
             // Arrange
             var fixture = new Fixture();
@@ -41,15 +41,16 @@ namespace JetShop.RentalCars.Application.Tests.CarRent.ReturnCar
             var token = fixture.Create<CancellationToken>();
 
             // Act
-            var result = await handler.Handle(query, token);
+            await handler.Handle(query, token);
 
             // Assert
+            mockCarRepository.Verify(x => x.UpdateAsync(It.IsAny<Car>()));
             Assert.Equal(CarStatus.Available, car.Status);
             Assert.Equal(endMileage, car.Mileage);
         }
 
         [Fact]
-        public async Task CarReturnCommandHandler_WhenCalled_UpdatedCarRent()
+        public async Task Handle_WhenCalled_UpdateCarRent()
         {
             // Arrange
             var fixture = new Fixture();
@@ -57,28 +58,32 @@ namespace JetShop.RentalCars.Application.Tests.CarRent.ReturnCar
 
             var startMileage = 1;
             var endMileage = 6;
+            var rentEndDate = DateTime.Now;
             var car = fixture.Build<Car>()
                 .With(x => x.Mileage, startMileage)
                 .Create();
             var mockCarRepository = fixture.Freeze<Mock<ICarRepository>>();
             mockCarRepository.Setup(x => x.GetByIdAsync(It.IsAny<Guid>()))
                 .ReturnsAsync(car);
-            var carRents = fixture.CreateMany<Domain.CarRents.CarRent>();
+            var carRent = fixture.Create<Domain.CarRents.CarRent>();
             var mockCarRentRepository = fixture.Freeze<Mock<ICarRentRepository>>();
-            mockCarRentRepository.Setup(x => x.GetAllAsync())
-                .ReturnsAsync(carRents);
+            mockCarRentRepository.Setup(x => x.GetByIdAsync(It.IsAny<Guid>()))
+                .ReturnsAsync(carRent);
 
             var query = fixture.Build<CarReturnCommand>()
                 .With(x => x.CarMileage, endMileage)
+                .With(x => x.ReturnDateTime, rentEndDate)
                 .Create();
             var handler = fixture.Create<CarReturnCommandHandler>();
             var token = fixture.Create<CancellationToken>();
 
             // Act
-            var result = await handler.Handle(query, token);
+            await handler.Handle(query, token);
 
             // Assert
             mockCarRentRepository.Verify(x => x.UpdateAsync(It.IsAny<Domain.CarRents.CarRent>()));
+            Assert.Equal(rentEndDate, carRent.RentEndOn);
+            Assert.Equal(endMileage, carRent.CarEndMileage);
         }
     }
 }

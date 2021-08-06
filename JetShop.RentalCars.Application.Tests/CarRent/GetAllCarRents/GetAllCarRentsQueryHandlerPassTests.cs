@@ -15,7 +15,7 @@ namespace JetShop.RentalCars.Application.Tests.CarRent.GetAllCarRents
     public class GetAllCarRentsQueryHandlerPassTests
     {
         [Fact]
-        public async Task GetAllCarRentsQueryHandler_WhenCalled_ReturnsCorrectSize()
+        public async Task Handle_WhenCalled_ReturnCorrectSize()
         {
             // Arrange
             var fixture = new Fixture();

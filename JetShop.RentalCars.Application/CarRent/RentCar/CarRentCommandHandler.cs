@@ -25,7 +25,7 @@ namespace JetShop.RentalCars.Application.CarRent.RentCar
             var car = await _carRepository.GetByIdAsync(request.CarId);
             if (car == null)
             {
-                throw new InvalidOperationException($"Car of id {request.CarId} not found");
+                throw new ArgumentException($"Car of id {request.CarId} not found");
             }
 
             if (car.Status != CarStatus.Available)

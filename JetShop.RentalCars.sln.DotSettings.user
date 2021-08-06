@@ -8,5 +8,13 @@
     &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.ReturnCar.CarReturnCommandHandlerPassTests.CarReturnCommandHandler_WhenCalled_UpdatedCarMileage&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.ReturnCar.CarReturnCommandHandlerPassTests.CarReturnCommandHandler_WhenCalled_UpdatedCarRent&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.ReturnCar.CarReturnCommandHandlerPassTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.RentCar.CarRentCommandHandlerPassTests.CarRentCommandHandler_WhenCalled_UpdateCarStatusMileage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.RentCar.CarRentCommandHandlerFailTests.CarRentCommandHandler_WhenCarNotFound_ThrowException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.RentCar.CarRentCommandHandlerFailTests.CarRentCommandHandler_WhenCarNotAvailable_ThrowException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.RentCar.CarRentCommandHandlerPassTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.ReturnCar.CarReturnCommandHandlerFailTests.Handle_WhenCarNotFound_ThrowException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.ReturnCar.CarReturnCommandHandlerFailTests.Handle_WhenCarRentNotFound_ThrowException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.ReturnCar.CarReturnCommandHandlerFailTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.RentCar.CarRentCommandHandlerFailTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

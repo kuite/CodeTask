@@ -29,7 +29,7 @@ namespace JetShop.RentalCars.Application.CarRent.ReturnCar
             var carRent = await _carRentRepository.GetByIdAsync(request.CarRentId);
             if (carRent == null)
             {
-                throw new InvalidOperationException($"Car rent of id {request.CarRentId} not found");
+                throw new ArgumentException($"Car rent of id {request.CarRentId} not found");
             }
 
             var car = await _carRepository.GetByIdAsync(carRent.CarId);
