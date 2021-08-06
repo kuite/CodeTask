@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=56b6a3bc_002Db842_002D488f_002Da3fe_002Dc5bb41048bfe/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UpdateMileage_WhenCorrect_UpdatesCorrect" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::5FE31A90-52B8-4CDC-B2D0-59701DFFCAF9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Domain.Tests.CarRentsTests.CarRentPassTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.GetAllCarRents.GetAllCarQueryHandlerPassTests.UpdateMileage_WhenCorrect_UpdatesCorrect&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.RentCar.CarRentCommandHandlerPassTests.CarRentCommandHandler_WhenCalled_CreateNewCarRent&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.GetAllCarRents.GetAllCarRentsQueryHandlerPassTests.GetAllCarRentsQueryHandler_WhenCalled_ReturnsCorrectSize&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.ReturnCar.CarReturnCommandHandlerPassTests.CarReturnCommandHandler_WhenCalled_UpdatedCarMileage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.ReturnCar.CarReturnCommandHandlerPassTests.CarReturnCommandHandler_WhenCalled_UpdatedCarRent&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ADE1F5EC-81B2-4ABD-96A6-9809DA174EE9::.NETCoreApp,Version=v3.0::JetShop.RentalCars.Application.Tests.CarRent.ReturnCar.CarReturnCommandHandlerPassTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

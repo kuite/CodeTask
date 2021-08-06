@@ -1,0 +1,9 @@
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain.Tests\bin\Debug\netstandard2.0\JetShop.RentalCars.Domain.Tests.deps.json
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain.Tests\bin\Debug\netstandard2.0\JetShop.RentalCars.Domain.Tests.dll
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain.Tests\obj\Debug\netstandard2.0\JetShop.RentalCars.Domain.Tests.AssemblyInfoInputs.cache
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain.Tests\obj\Debug\netstandard2.0\JetShop.RentalCars.Domain.Tests.AssemblyInfo.cs
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain.Tests\obj\Debug\netstandard2.0\JetShop.RentalCars.Domain.Tests.csproj.CoreCompileInputs.cache
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain.Tests\bin\Debug\netstandard2.0\JetShop.RentalCars.Domain.Tests.pdb
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain.Tests\obj\Debug\netstandard2.0\JetShop.RentalCars.Domain.Tests.dll
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain.Tests\obj\Debug\netstandard2.0\JetShop.RentalCars.Domain.Tests.pdb
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain.Tests\obj\Debug\netstandard2.0\JetShop.RentalCars.Domain.Tests.csprojAssemblyReference.cache

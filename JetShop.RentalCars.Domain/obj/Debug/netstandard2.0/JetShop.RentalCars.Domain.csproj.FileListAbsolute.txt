@@ -1,0 +1,9 @@
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain\bin\Debug\netstandard2.0\JetShop.RentalCars.Domain.deps.json
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain\bin\Debug\netstandard2.0\JetShop.RentalCars.Domain.dll
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain\bin\Debug\netstandard2.0\JetShop.RentalCars.Domain.pdb
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain\obj\Debug\netstandard2.0\JetShop.RentalCars.Domain.AssemblyInfoInputs.cache
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain\obj\Debug\netstandard2.0\JetShop.RentalCars.Domain.AssemblyInfo.cs
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain\obj\Debug\netstandard2.0\JetShop.RentalCars.Domain.csproj.CoreCompileInputs.cache
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain\obj\Debug\netstandard2.0\JetShop.RentalCars.Domain.dll
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain\obj\Debug\netstandard2.0\JetShop.RentalCars.Domain.pdb
+C:\projects\RentalCars\JetShop.RentalCars\JetShop.RentalCars.Domain\obj\Debug\netstandard2.0\JetShop.RentalCars.Domain.csprojAssemblyReference.cache
