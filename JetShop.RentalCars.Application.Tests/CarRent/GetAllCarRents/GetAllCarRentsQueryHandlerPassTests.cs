@@ -4,9 +4,7 @@ using System.Threading.Tasks;
 using AutoFixture;
 using AutoFixture.AutoMoq;
 using JetShop.RentalCars.Application.CarRent.GetAllCarRents;
-using JetShop.RentalCars.Application.Cars.GetAllCarDetails;
 using JetShop.RentalCars.Domain.CarRents;
-using JetShop.RentalCars.Domain.Cars;
 using Moq;
 using Xunit;
 

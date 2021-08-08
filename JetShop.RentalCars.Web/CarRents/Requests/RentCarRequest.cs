@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace JetShop.RentalCars.Web.Cars.Requests
+namespace JetShop.RentalCars.Web.CarRents.Requests
 {
     public class RentCarRequest
     {

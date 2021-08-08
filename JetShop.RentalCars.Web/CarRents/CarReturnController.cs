@@ -4,7 +4,7 @@ using JetShop.RentalCars.Web.Cars.Requests;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace JetShop.RentalCars.Web.Cars
+namespace JetShop.RentalCars.Web.CarRents
 {
     [ApiController]
     [Route("[controller]")]

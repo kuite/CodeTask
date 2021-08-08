@@ -10,7 +10,6 @@ namespace JetShop.RentalCars.Infrastructure.Persistence.Database
     {
         public DbSet<Car> Cars => Set<Car>();
         public DbSet<CarRent> CarRents => Set<CarRent>();
-
         public DbSet<ConfigurationSettings> Configuration => Set<ConfigurationSettings>();
 
         public DatabaseContext(DbContextOptions options) : base(options)

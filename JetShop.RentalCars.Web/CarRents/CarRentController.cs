@@ -1,11 +1,12 @@
 ﻿using System.Threading.Tasks;
 using JetShop.RentalCars.Application.CarRent.GetAllCarRents;
 using JetShop.RentalCars.Application.CarRent.RentCar;
+using JetShop.RentalCars.Web.CarRents.Requests;
 using JetShop.RentalCars.Web.Cars.Requests;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace JetShop.RentalCars.Web.Cars
+namespace JetShop.RentalCars.Web.CarRents
 {
     [ApiController]
     [Route("[controller]")]
